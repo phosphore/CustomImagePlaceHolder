@@ -1,4 +1,8 @@
-This is your new Play 2.1 application
-=====================================
+# ![Logo](http://phosphore.altervista.org/git/ip_grey.png) Img Placeholder
+An API built with Play framework 2.1.x.  
+Based on [jcraane / textimagegenerator and phosphore's adaptation](https://github.com/phosphore/ImgPlaceholder)
 
-This file will be packaged with your application, when using `play dist`.
+## An example is provided here:
+![Placeholder](http://phosphore.altervista.org/git/placehold.png)  
+
+[Index example](http://lorenzostella.it/test/imageplaceholder)
