@@ -6,3 +6,4 @@ Based on [jcraane / textimagegenerator and phosphore's adaptation](https://githu
 ![Placeholder](http://phosphore.altervista.org/git/placehold.png)  
 
 [Index example](http://lorenzostella.it/test/imageplaceholder)
+
