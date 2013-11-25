@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="demo1 no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Custom ImagePlaceHolder</title>
+		<link rel="shortcut icon" id="favicon" href="favicon.png"> 
+		<link rel="stylesheet" type="text/css" href="@routes.Assets.at("css/default.css")" />
+		
+		<!-- Edit Below -->
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	    <script type="text/javascript" src="@routes.Assets.at("js/jquery.onepage-scroll.js")"></script>
+	    
+	    <script type="text/javascript" src="@routes.Assets.at("js/jquery.immersive-slider.js")"></script>
+	    <link rel="stylesheet" type="text/css" href="@routes.Assets.at("css/immersive-slider.css")" />
+	    
+	    <link rel="stylesheet" type="text/css" href="@routes.Assets.at("css/style.css")" />
+	    <link rel="stylesheet" type="text/css" href="@routes.Assets.at("css/onepage-scroll.css")" />
+	    <link rel="stylesheet" type="text/css" href="@routes.Assets.at("css/elusive-webfont.css")" />
+	    <script src="@routes.Assets.at("../file/js/modernizr.js")"></script>
+	</head>
+	<body class="demo1">
+  
+
+  
+
+	
+	<div class="mainsite">
+	<section class="page1">
+	<div class="main">
+      <div class="page_container" style="margin-top: 100px;">
+       <div id="immersive_slider">
+        <div class="slide" data-blurred="@routes.Assets.at("img/slide1_blurred.jpg")">
+          <div class="content">
+            <h2>Not another placeholder!</h2>
+            <p>It’s never been easier to create placeholders.
+            Just a few parameters, easy and handy.</p>
+          </div>
+          <div class="image">
+            <img src="@routes.Assets.at("img/slide1.jpg")" alt="Slider 1">
+          </div>
+        </div>
+        <div class="slide" data-blurred="@routes.Assets.at("img/slide2_blurred.jpg")">
+          <div class="content">
+            <h2>This one is custom</h2>
+            <p>Just watch how to generate simple placeholders of any color/size!
+            Designed for you by you!</p>
+          </div>
+          <div class="image">
+            <img src="@routes.Assets.at("img/slide2.jpg")" alt="Slider 1">
+          </div>
+        </div>
+        <div class="slide" data-blurred="@routes.Assets.at("img/slide3_blurred.jpg")">
+          <div class="content">
+            <h2>How do I do it?</h2>
+            <p>Scroll down and take a look at the code, easy :)</p>
+          </div>
+          <div class="image">
+            <img src="@routes.Assets.at("img/slide3.jpg")" alt="Slider 1">
+          </div>
+        </div>
+        <div class="is-nav">
+          <a href="#" class="is-prev">&laquo;</a>
+          <a href="#" class="is-next">&raquo;</a>
+        </div>
+      </div>
+        </div>
+    </section>
+    <section class="page2">
+      <div class="page_container">
+        <h1>The code</h1>
+        <p>Just create an URL like this: <br/> <a style="font-size: 25px;text-shadow: 1px 1px black;">http://localhost:9000/gen/400x500/</a> <br/> without a color, obtaining a white background, or <br/> <a style="font-size: 25px;text-shadow: 1px 1px black;">http://localhost:9000/gen/400x500/F0F0F0</a> <br/> giving the hex of it.</p>
+      </div>
+    </section>
+    <section class="page3">
+      <div class="page_container">
+        <h1>Pretty cool eh?</h1>
+        <p>Another <a href="http://lorenzostella.it/">phosphore</a>'s work</p>
+      </div>
+    </section>
+	</div>
+	</div>
+	<script type="text/javascript">
+	    $(".mainsite").onepage_scroll({
+	      sectionContainer: "section"
+	    });
+  	</script>
+  		<script type="text/javascript">
+	  $(document).ready( function() {
+	    $("#immersive_slider").immersive_slider({
+	      container: ".main"
+	    });
+	  });
+    
+  	</script>
+	
+	</body>
+</html>
