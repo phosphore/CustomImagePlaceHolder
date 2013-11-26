@@ -1,4 +1,4 @@
-# ![Logo](http://phosphore.altervista.org/git/ip_grey.png) Img Placeholder API
+# ![Logo](http://phosphore.altervista.org/git/ip_grey.png) Img Placeholder Service
 An API built with Play framework 2.1.x.  
 Based on [jcraane / textimagegenerator and phosphore's adaptation](https://github.com/phosphore/ImgPlaceholder)
 Just type an URL like this: 
