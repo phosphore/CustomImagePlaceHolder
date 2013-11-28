@@ -18,3 +18,7 @@ giving the hex of it.
 
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/phosphore/customimageplaceholder/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
